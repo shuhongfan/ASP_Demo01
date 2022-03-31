@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+ <Ad>
+    <ImageUrl>~/images/01.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>范例宝典</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>图书</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/02.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>经验技巧</AlternateText>
+    <Impressions>60</Impressions>
+    <Keyword>图书</Keyword>
+  </Ad>
+</Advertisements>

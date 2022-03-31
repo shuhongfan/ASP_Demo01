@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="productID" />
+    </Key>
+    <Property Name="productID" Type="Int32" Nullable="false" />
+    <Property Name="productName" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="productPrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="productCount" Type="Int32" />
+    <Property Name="productType" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="productDate" Type="DateTime" Precision="0" />
+    <Property Name="productArea" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="testEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="product" EntityType="Self.product" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<proj11_3.Models.Book>
+@{
+    ViewBag.Title = "图书查询";
+}
+@using (Html.BeginForm("index", "home", FormMethod.Get))
+{
+    <p>
+        图书名称：@Html.TextBox("bookname")<br />
+        <input type="submit" value="查询" />
+    </p>
+}
+<table border="1">
+    <tr>
+        <th>书号</th>
+        <th>书名</th>
+        <th>作者</th>
+        <th>出版社</th>
+        <th>出版日期</th>
+        <th>定价</th>       
+    </tr>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.isbn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bookName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.press)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pressDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>       
+    </tr>
+}
+</table>

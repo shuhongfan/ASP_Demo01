@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+   <siteMapNode url="~/Default.aspx" title="首页"  description="">
+     <siteMapNode url="~/Products.aspx" title="产品分类"  description="">
+       <siteMapNode url="~/Hardware.aspx" title="硬件产品" description=""/>
+     </siteMapNode>
+   </siteMapNode>
+</siteMap>
+

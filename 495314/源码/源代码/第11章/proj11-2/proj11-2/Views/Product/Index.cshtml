@@ -1,0 +1,30 @@
+﻿@model IEnumerable<proj11_2.Models.product>
+
+@{
+    ViewBag.Title = "电子产品列表";
+}
+<table border="1">
+    <tr>
+        <th>产品名称 </th>
+        <th>产品价格 </th>
+        <th>库存数量 </th>
+        <th>产品产地 </th>     
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.productName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.productPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.productCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.productArea)
+        </td>
+    </tr>
+}
+</table>

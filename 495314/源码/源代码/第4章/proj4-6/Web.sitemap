@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode url="Default.aspx" title="管理系统"  description="">
+    <siteMapNode url="Manage.aspx" title="商品管理"  description="商品操作">
+      <siteMapNode url="MerchandiseSale.aspx" title="出售与退还"  description="" />
+      <siteMapNode url="IntegralMerchandise.aspx" title="积分使用"  description="" />
+      <siteMapNode url="IntegralUseRule.aspx" title="积分规则"  description="" />
+    </siteMapNode>
+    <siteMapNode url="ManageCard.aspx" title="卡类管理"  description="会员卡操作">
+      <siteMapNode url="CardAdd.aspx" title="添加卡类型"  description="" />
+      　 <siteMapNode url="CardUpdate.aspx" title="卡类型修改"  description="" />
+      <siteMapNode url="CardRoleUpdate.aspx" title="积分规则修改"  description="" />
+      　  <siteMapNode url="CardReset.aspx" title="积分规则获取"  description="" />
+    </siteMapNode>
+    <siteMapNode url="ManageMember.aspx" title="会员信息管理" description="会员详细信息">
+      <siteMapNode url="AddUserMember.aspx" title="会员信息添加"  description="" />
+      <siteMapNode url="MemberInfoSelect.aspx" title="会员信息查询"  description="" />
+      <siteMapNode url="MemberEdit.aspx" title="会员信息修改"  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

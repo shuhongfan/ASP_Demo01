@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="学生">
+    <Key>
+      <PropertyRef Name="学号" />
+    </Key>
+    <Property Name="学号" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="姓名" Type="nchar" MaxLength="10" />
+    <Property Name="性别" Type="nchar" MaxLength="2" />
+  </EntityType>
+  <EntityContainer Name="testModel1StoreContainer">
+    <EntitySet Name="学生" EntityType="Self.学生" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
