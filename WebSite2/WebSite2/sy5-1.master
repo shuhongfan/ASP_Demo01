@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sy5-1.master.cs" Inherits="sy5_1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td>公司徽标、名称、动画等主页头部信息</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td>版权所有@武汉天地公司</td>
+            </tr>
+        </table>
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>
