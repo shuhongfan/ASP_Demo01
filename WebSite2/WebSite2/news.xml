@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <News>
+    <ID>153</ID>
+    <Title>不要乱扔拉级</Title>
+    <Content>地球需要保护</Content>
+    <Type>地球环境</Type>
+    <Date>2017-03-28</Date>
+  </News>
+  <News>
+    <ID>154</ID>
+    <Title>污染环境</Title>
+    <Content>大气污染太严重</Content>
+    <Type>地球环境</Type>
+    <Date>2017-03-30</Date>
+  </News>
+  <News>
+    <ID>155</ID>
+    <Title>空气污染</Title>
+    <Content>车辆排放尾气污染环境</Content>
+    <Type>地球环境</Type>
+    <Date>2017-04-02</Date>
+  </News>
+</NewDataSet>
